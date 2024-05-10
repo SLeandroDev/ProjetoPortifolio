@@ -6,29 +6,69 @@
     <title>Document</title>
     <link rel="stylesheet" href="../pages/css/output.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-          
+    <link rel="stylesheet" href="../pages/css/main.css">    
     
 </head>
-<body>
+<body >
     
-    <div class="absolute inset-0 bg-azulPadrao max-w-lg">
-        <div class="absolute flex justify-end items-center h-full" style="width: 140%;">
-            <div class="max-w-md bg-white rounded-lg border border-solid border-azulPadrao">
-               
-              
-                    <div class="p-8">
-                        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-azulPadrao">Leandro Silva</a>
-                        <p class="mt-2 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, suscipit eos dignissimos, repellendus ut, quibusdam qui nobis iusto incidunt eligendi officia consequatur culpa quod hic modi ratione accusamus beatae et?.</p>
+    <section class="relative">
+        <div class="absolute h-screen w-full overflow-x-visible">
+            <div class="painel-lateral shadow" id="painelLateral"></div>
+        </div>
+        
+        <div class="flex items-center h-screen absolute">
+            <div class="relative overflow-x-visible" style="left: calc(50% + 3rem);">
+                <div class="container bg-white rounded-xl max-w-md min-w-sm border border-solid border-b-azulPadrao shadow relative z-10">
+                    <div class="p-8 mt-5">
+                        <h1 class="p-4 text-center font-semibold text-lg">Leandro Silva</h1>
+                        <p class="">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Recusandae sunt unde earum officia quia, 
+                            dolores neque ratione vero voluptates dignissimos incidunt vitae 
+                            expedita magnam temporibus quas sapiente distinctio tempore ducimus?
+                        </p>
                     </div>
-                    <div class="flex justify-around">
-                        <div class="w-80 h-80"><span><i class="devicon-linkedin-plain"></i></span></div>
-                        <div class="flex-auto w-32"><span><i class="devicon-linkedin-plain"></i></span></div>
-                        <div class="flex-auto w-32"><span><i class="devicon-linkedin-plain"></i></span></div>
+                    <div class="flex justify-between items-center p-4">
+                        <img src="../pages/images/iconWhats.png" alt="">
+                        <img src="../pages/images/iconLinkedin.png" alt="">
+                        <img src="../pages/images/iconGithub.png" alt="">
+                    </div> 
+                </div>
+                <div class="absolute transform -translate-x-1/2" style="top: -5rem; left: 40%;">
+                    <div id="imagemPerfil" class="rounded-image shadow">
+                        <!-- Conteúdo da imagem -->
                     </div>
+                </div>
             </div>
         </div>
-    </div>
-      
+
+        <div class=" flex justify-end h-screen">
+            <div class="absolute p-4"  style="top: 25rem !important; margin-right: 10%; ">
+                <h1 class="p-4 text-center font-semibold text-lg">Leandro Silva</h1>
+                <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Recusandae sunt unde earum officia quia, </p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Recusandae sunt unde earum officia quia,</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Recusandae sunt unde earum officia quia,</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Recusandae sunt unde earum officia quia,</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Recusandae sunt unde earum officia quia,
+                </p>
+            </div>
+        </div>
+        
+        <!-- Div com os botões -->
+        <div class=" flex justify-end h-screen">
+            <div class="absolute p-4"  style="top: 45rem !important; margin-right: 10%; ">
+                <button class="button">Botão 1</button>
+                <button class="button">Botão 2</button>
+                <button class="button">Botão 3</button>
+            </div>
+        </div>
+        
+
+    </section>
+    
+   
 </body>
 </html>
 
