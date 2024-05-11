@@ -239,7 +239,7 @@ button,
 input:where([type='button']),
 input:where([type='reset']),
 input:where([type='submit']) {
-  -webkit-appearance: button;
+  --webkit-appearance: button;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -286,7 +286,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield;
+  --webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
@@ -426,7 +426,6 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
   /* 2 */
 }
 
@@ -719,17 +718,45 @@ video {
   clear: none;
 }
 
-.mx-8 {
+.mx-2 {
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.ml-2{
+  margin-left: 2rem;
+}
+
+.ml-4{
+  margin-left: 4rem;
+}
+
+.mr-2{
+  margin-left: 2rem;
+}
+
+.mr-4{
+  margin-left: 4rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.mt-5 {
+  margin-top: 3rem;
 }
 
 .ms-80 {
@@ -931,6 +958,13 @@ video {
   max-width: 32rem;
 }
 
+.max-w-xl {
+  max-width: 45rem;
+}
+
+.max-w-1xl {
+  max-width: 50rem;
+}
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1132,6 +1166,10 @@ video {
 
 .list-outside {
   list-style-position: outside;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .appearance-none {
@@ -1907,6 +1945,7 @@ video {
   background-color: rgb(2 61 104 / var(--tw-bg-opacity));
 }
 
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -2095,6 +2134,46 @@ video {
   line-height: 1.75rem;
 }
 
+.text-1xl {
+  font-size: 1.25rem; 
+line-height: 1.75rem;
+}
+
+.text-2xl	{
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+
+.text-3xl	{
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+
+.text-4xl	{
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+}
+
+.text-5xl	{
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+}
+
+.text-6xl	{
+  font-size: 3.75rem; /* 60px */
+  line-height: 1;
+}
+
+.text-7xl	{
+  font-size: 4.5rem; /* 72px */
+  line-height: 1;
+}
+
+.text-8xl	{
+  font-size: 6rem; /* 96px */
+  line-height: 1;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -2195,6 +2274,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-azulPadrao {
+  --tw-text-opacity: 1;
+  color: #023D68;
+}
+
+.text-azulPadraoClaro {
+  --tw-text-opacity: 1;
+  color: #125A8F;
 }
 
 .underline {
